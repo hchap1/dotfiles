@@ -1,0 +1,27 @@
+# General Settings
+general {
+    sensitivity = 1.0
+    vfr = false
+    max_fps = 60
+    damage_tracking = full
+}
+
+# Monitor
+monitor = HDMI-A-1,1920x1080@60,1
+
+# Keybindings
+bind = MOD, RETURN, exec, alacritty
+bind = MOD, Q, killactive
+
+# Animations
+animation {
+    enabled = true
+    speed = 7
+}
+
+# Decorations
+decoration {
+    rounding = 5
+    blur = false
+    shadow = true
+}

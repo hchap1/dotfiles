@@ -1,2 +1,2 @@
 # dotfiles
-Fedora config
+Personal fedora config for hyprland.
