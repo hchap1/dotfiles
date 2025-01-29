@@ -4,6 +4,10 @@ rm -rf ~/hypr
 rm -rf ~/waybar
 ln -sf ~/dotfiles/hypr ~/.config
 ln -sf ~/dotfiles/waybar ~/.config
+
+sudo dnf install cargo
+cargo install --path ~/dotfiles/rshot
+
 sudo dnf install waybar
 sudo dnf install hyprpaper
 sudo dnf copr enable atim/starship
