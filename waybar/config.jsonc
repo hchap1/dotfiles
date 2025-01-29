@@ -10,6 +10,7 @@
 		"hyprland/workspaces"
 	],
 	"modules-right": [
+		"tray",
 		"pulseaudio",
 		"network",
 		"cpu",
