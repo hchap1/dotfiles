@@ -1,0 +1,4 @@
+style = ~/dotfiles/wofi/style.css
+font = monospace 12
+show-categories = true
+width = 900
