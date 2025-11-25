@@ -14,7 +14,6 @@
 		"network",
 		"cpu",
 		"temperature",
-		"battery",
 		"clock",
 		"custom/notifications"
 	],
@@ -53,18 +52,6 @@
 		"format": "{icon} {temperatureC}°C",
 		"format-icons": [""],
 		"thermal-zone": 10
-	},
-	"battery": {
-		"states": {
-			"warning": 60,
-			"critical": 30
-		},
-		"format": "{icon} {capacity}%",
-		"format-full": "{icon}  {capacity}%",
-		"format-charging": " {capacity}%",
-		"format-plugged": "  {capacity}%",
-		"format-alt": "{time} {icon}",
-		"format-icons": ["", "", "", "", ""]
 	},
 	"network": {
 		// {signalStrength}
