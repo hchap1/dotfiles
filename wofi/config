@@ -1,4 +1,7 @@
-style = ~/dotfiles/wofi/style.css
 font = monospace 12
 show-categories = true
 width = 900
+
+[drun]
+show-icons=true
+icon-size=32

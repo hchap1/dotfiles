@@ -1,6 +1,34 @@
 window {
 	border-radius: 12px;
-	padding: 50px;
+	padding: 5px;
 	background-color: rgba(60,56,54,0.8);
 	border: 2px solid #B52BFB;
+}
+
+#img {
+	margin: 10px;
+}
+
+#input {
+	border: 2px solid rgba(60, 56, 54, 0.8);
+	border-radius: 10px;
+	background-color: transparent;
+	margin: 5px;
+}
+
+#input:focus {
+	border: 5px solid rgba(60, 56, 54, 0.8);
+	border-radius: 10px;
+	margin: 8px;
+	box-shadow: none;
+}
+
+#outer-box {
+	margin: 10px;
+}
+
+#entry:selected {
+	background-color: rgba(72, 67.2, 64.8, 0.8);
+	border: 2px dashed #B52BFB;
+	border-radius: 10px;
 }
