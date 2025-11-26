@@ -13,9 +13,8 @@
 		"pulseaudio",
 		"network",
 		"cpu",
-		"temperature",
 		"clock",
-		"custom/notifications"
+		"memory"
 	],
 	"hyprland/window": {
 		"format": "{}",
@@ -31,7 +30,7 @@
 		"format-icons": {
 			"active": " " // using a thin space (U+2009)
 		},
-		"sort-by-number": true,
+		"sort-by-number": false,
 		"persistent-workspaces": {
 			"*": 3, // 3 workspaces by default on every monitor
 		}
@@ -42,7 +41,7 @@
 	},
 	"cpu": {
 		"format": " {usage}%",
-		"tooltip": false
+		"tooltip": true
 	},
 	"memory": {
 		"format": "{}%  "

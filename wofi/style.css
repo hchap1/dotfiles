@@ -14,6 +14,7 @@ window {
 	border-radius: 10px;
 	background-color: transparent;
 	margin: 5px;
+	color: rgba(200, 200, 200, 0.8);
 }
 
 #input:focus {
@@ -25,6 +26,10 @@ window {
 
 #outer-box {
 	margin: 10px;
+}
+
+#entry {
+	color: rgba(200, 200, 200, 0.8);
 }
 
 #entry:selected {

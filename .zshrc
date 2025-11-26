@@ -20,3 +20,4 @@ export STARSHIP_CONFIG="$HOME/dotfiles/starship.toml"
 eval "$(starship init zsh)"
 export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$HOME/.cargo/bin:$PATH"
+export VDPAU_DRIVER=nvidia
