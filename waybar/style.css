@@ -74,6 +74,8 @@ button:hover {
 
 #temperature { color: @blue; }
 
+#memory { color: @mauve }
+
 #battery { color: @green; }
 #battery.warning {
 	color: @peach;

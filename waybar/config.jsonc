@@ -4,6 +4,7 @@
 	"margin-right": 10,
 	"height" : 30,
 	"modules-left": [
+		"clock",
 		"hyprland/window"
 	],
 	"modules-center": [
@@ -13,8 +14,8 @@
 		"pulseaudio",
 		"network",
 		"cpu",
-		"clock",
-		"memory"
+		"memory",
+		"temperature"
 	],
 	"hyprland/window": {
 		"format": "{}",
@@ -32,7 +33,7 @@
 		},
 		"sort-by-number": false,
 		"persistent-workspaces": {
-			"*": 3, // 3 workspaces by default on every monitor
+			//"*": 3 // 3 workspaces by default on every monitor
 		}
 	},
 	"clock": {
@@ -44,17 +45,16 @@
 		"tooltip": true
 	},
 	"memory": {
-		"format": "{}%  "
+		"format": "{used} / {total} GB "
 	},
 	"temperature": {
-		"critical-threshold": 80,
-		"format": "{icon} {temperatureC}°C",
-		"format-icons": [""],
-		"thermal-zone": 10
+	  "hwmon-path": "/sys/class/hwmon/hwmonX/temp1_input",
+	  "critical-threshold": 80,
+	  "format": " {temperatureC}°C"
 	},
 	"network": {
 		// {signalStrength}
-		"format-wifi": "  {essid}",
+		"format-wifi": "    {essid}",
 		"format-ethernet": "{cidr} ",
 		"tooltip-format": "{ifname} via {gwaddr} ",
 		"format-linked": "{ifname} (No IP) ",
